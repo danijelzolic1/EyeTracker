@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/fd_activity_surface_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewAlarm"
+        android:layout_alignParentEnd="true"
+        android:textSize="30dp"
+        android:textColor="#ffbe1b00" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTime"
+        android:textSize="50dp"
+        android:textColor="#ffbe1b00"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/alarmTime"
+        android:layout_alignTop="@+id/fd_activity_surface_view"
+        android:layout_alignParentStart="true"
+        android:textSize="60dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View on"
+        android:id="@+id/btnViewOnOff"
+        android:onClick="viewOn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/alarmTime"
+        android:layout_alignTop="@+id/fd_activity_surface_view"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alarmAway"
+        android:layout_below="@+id/alarmTime"
+        android:layout_alignParentStart="true"
+        android:text="0%"
+        android:textSize="60dp" />
+
+
+</RelativeLayout>
