@@ -1,5 +1,9 @@
 package se.chalmers.student.eyetracker;
 
+/**
+ * Created by Zolic on 10/10/14.
+ */
+
 import android.content.Context;
 import android.util.Log;
 import android.view.View;
@@ -23,6 +27,7 @@ import org.opencv.objdetect.Objdetect;
 
 import java.io.File;
 import java.util.Observable;
+
 
 public class Camera extends Observable implements CvCameraViewListener2 {
     private static final String TAG = "EyeTracker";

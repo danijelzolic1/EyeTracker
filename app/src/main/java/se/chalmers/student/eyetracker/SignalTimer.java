@@ -4,7 +4,7 @@ import  java.util.Observable;
 import java.util.Observer;
 
 /**
- * Created by Akar on 2014-10-12.
+ * Created by Zolic on 2014-10-12.
  */
 
 public class SignalTimer extends Thread implements Observer{

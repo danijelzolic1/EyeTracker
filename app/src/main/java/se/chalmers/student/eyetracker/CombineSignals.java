@@ -16,12 +16,8 @@ import java.lang.Runnable;
 import java.util.Observable;
 
 /**
- * Created by Soroush on 09/10/14.
  * Purpose: Combine two signals
- * The class has a method that called combine. This method return an integer depends on
- * speed and distractionLevel.
- * Created by Soroush on 15/10/14.
- * Added Signal for rear gear
+ * Created by Zolic on 15/10/14.
  *
  */
 public class CombineSignals extends Observable {
